@@ -1,0 +1,14 @@
+.Loading {
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Loading > img {
+    height: 100%;
+    width: 100%;
+}

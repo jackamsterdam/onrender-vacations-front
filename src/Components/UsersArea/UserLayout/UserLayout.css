@@ -1,0 +1,15 @@
+.UserLayout {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.UserLayout {
+    background: rgb(196, 213, 219, 80%);
+    height: fit-content;
+}
+
+.UserLayout .SearchVacation {
+    background-color: transparent;
+    border: 1px solid grey;
+    margin-left: 28px;
+}

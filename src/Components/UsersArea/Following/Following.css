@@ -1,0 +1,26 @@
+.Following {
+    min-height: 30%;
+    margin: 16px;
+    border-bottom: 2px solid darkcyan;
+}
+
+.Following .Container {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.hideFollowing {
+    display: none;
+}
+
+.showFollowing {
+    display: block;
+}
+
+.Following .Headline {
+    text-align: left;
+    padding-top: 12px;
+    padding-left: 29px;
+}

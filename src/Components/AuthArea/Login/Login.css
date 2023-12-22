@@ -1,0 +1,62 @@
+.Login {
+	text-align: center;
+	display: inline-block;
+	margin-top: 40px;
+}
+
+.Login>form {
+	width: 450px;
+	padding: 20px;
+	margin: 20px;
+
+}
+
+.Login .TextBox {
+	width: 100%;
+	margin: 0 0 20px 0;
+	box-sizing: border-box;
+}
+
+.Login .ErrorMsg {
+	color: red;
+	position: relative;
+	font-size: 16px;
+	font-weight: bold;
+	bottom: 21px;
+	float: left;
+}
+
+.Login button {
+	margin: 10px 0;
+}
+
+.Login button:hover {
+	transform: scale(0.98);
+	cursor: pointer;
+}
+
+.Login p {
+	text-decoration: underline;
+}
+
+.RegisterText {
+	display: inline;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.Login a {
+	color: blue;
+}
+
+@media only screen and (max-width:700px) {
+	.Login > form {
+		width: 320px;
+		padding: 20px;
+		margin: 20px;
+	}
+
+	.Login .RegisterText {
+		background: rgba(198, 207, 211, 0.6);
+	}
+}

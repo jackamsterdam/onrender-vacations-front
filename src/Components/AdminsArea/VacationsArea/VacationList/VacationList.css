@@ -1,0 +1,16 @@
+.VacationList {
+    background: rgb(196, 213, 219, 76%);
+    text-align: left;
+}
+
+.VacationList .Container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.VacationList .SearchVacation {
+    background-color: transparent;
+    border: 1px solid grey;
+    margin-left: 28px;
+}

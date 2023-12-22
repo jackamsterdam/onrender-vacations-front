@@ -1,0 +1,52 @@
+.Register {
+  text-align: center;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.Register > form {
+  width: 450px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.Register .TextBox {
+  width: 100%;
+  margin: 0 0 20px 0;
+  box-sizing: border-box;
+}
+
+.Register .ErrorMsg {
+  color: red;
+  position: relative;
+  font-size: 16px;
+  font-weight: bold;
+  bottom: 21px;
+  float: left;
+}
+
+.Register button {
+  margin: 10px 0;
+}
+
+.Register button:hover {
+  transform: scale(0.98);
+  cursor: pointer;
+}
+
+.LoginText {
+  background: #B2C3CB;
+  display: inline;
+}
+
+.Register a {
+	color: blue;;
+}
+
+@media only screen and (max-width:700px) {
+  .Register > form {
+    width: 320px;
+    padding: 20px;
+    margin: 20px;
+  }
+}

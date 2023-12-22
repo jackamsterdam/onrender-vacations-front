@@ -1,0 +1,15 @@
+.UnFollowing {
+    margin: 16px;
+}
+
+.UnFollowing .Container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.UnFollowing .Headline {
+    text-align: left;
+    padding-top: 12px;
+    padding-left: 29px;
+}

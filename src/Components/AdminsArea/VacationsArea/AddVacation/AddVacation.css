@@ -1,0 +1,53 @@
+.AddVacation {
+  text-align: center;
+  display: inline-block;
+}
+
+.AddVacation > form {
+  width: 450px;
+  padding: 20px;
+  background: rgb(196, 213, 219, 66%);
+}
+
+.AddVacation .ErrorMsg {
+  color: red;
+  position: relative;
+  font-size: 16px;
+  font-weight: bold;
+  bottom: 21px;
+  float: left;
+}
+
+.AddVacation .TextBox {
+  width: 100%;
+  margin: 0 0 20px 0;
+  box-sizing: border-box;
+}
+
+.AddVacation button {
+  margin: 10px 0;
+}
+
+.AddVacation button:hover {
+  cursor: pointer;
+  transform: scale(0.98)
+}
+
+.AddVacation .ImageUploader {
+  position: relative;
+  right: 196px;
+}
+
+@media only screen and (max-width:700px) {
+  .AddVacation>form {
+    width: 320px;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .AddVacation .ImageUploader {
+    position: relative;
+    right: 127px;
+  }
+
+}
